@@ -7,8 +7,8 @@ class Main {
         int n = sc.nextInt();
           System.out.println("_".repeat(70));
         double[] temps = new double[n];
-        double max = Double.MIN_VALUE;
-        double min = Double.MAX_VALUE;
+        double max = -Double.MIN_VALUE;
+        double min = -Double.MAX_VALUE;
         double sum = 0; 
         int maxDay = 0; 
         int minDay = 0;
