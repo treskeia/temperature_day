@@ -55,9 +55,9 @@ class Main {
       System.out.println("Lowest: " + new java.text.DecimalFormat("0.##").format(min) + "\tDay: " + minDay);
     
     double average = sum / n;
-    int hot = ht_d * n;
-    int mild = ml_d * n;
-   int cold = cd_d * n;
+    int hot = (int) Math.round(ht_d * 100.0 / n);  
+    int mild = (int) Math.round(ht_d * 100.0 / n);
+    int cold = (int) Math.round(ht_d * 100.0 / n);
     
     System.out.println("_".repeat(70));
      System.out.println("Avereage Weather: " + average);
