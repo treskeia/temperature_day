@@ -56,8 +56,8 @@ class Main {
     
     double average = sum / n;
     int hot = (int) Math.round(ht_d * 100.0 / n);  
-    int mild = (int) Math.round(ht_d * 100.0 / n);
-    int cold = (int) Math.round(ht_d * 100.0 / n);
+    int mild = (int) Math.round(ml_d * 100.0 / n);
+    int cold = (int) Math.round(cd_d * 100.0 / n);
     
     System.out.println("_".repeat(70));
      System.out.println("Avereage Weather: " + average);
